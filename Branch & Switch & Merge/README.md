@@ -32,6 +32,7 @@
       1) `$ git switch main`
       2) `$ git merge (branch 이름)` // Main에서 코드 입력
       3) `$ git commit -m '커밋 메시지 내용'`
+   3) 장점 : 기록을 남겨야하는 중요한 branch를 merge할 때 좋음
    4) 단점 : git log를 확인할 때에 모든 branch 선이 보이기 때문에 시각적으로 보기 힘들다
    5) 해결 : Rebase 또는 Squash Merge 방법 사용
   
@@ -56,6 +57,7 @@
       1) `$ git switch main`
       2) `$ git merge --squash (branch 이름)` // branch 커밋 내용을 main으로 가져옴
       3) `$ git commit -m '커밋 메시지 내용'` // main에서 새로운 commit 함
+   3) 장점 : 기록이 필요없는 branch를 merge할 때 좋음
     
 <br>
 
